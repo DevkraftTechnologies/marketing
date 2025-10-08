@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad08" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a044e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pinkGrad08" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f472b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad08" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bgGrad08)"/>
+
+  <text x="600" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">
+    AI Video Transcreation - Business Impact
+  </text>
+
+  <!-- Time & Efficiency -->
+  <rect x="50" y="100" width="350" height="200" rx="12" fill="rgba(244,114,182,0.1)" stroke="url(#pinkGrad08)" stroke-width="2"/>
+  <text x="225" y="140" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="url(#pinkGrad08)" text-anchor="middle">🎬 Production Speed</text>
+  <line x1="70" y1="155" x2="380" y2="155" stroke="url(#pinkGrad08)" stroke-width="1" opacity="0.5"/>
+  <text x="70" y="185" font-family="Arial, sans-serif" font-size="16" fill="white">Video Production:</text>
+  <text x="370" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#pinkGrad08)" text-anchor="end">95% faster</text>
+  <text x="70" y="215" font-family="Arial, sans-serif" font-size="16" fill="white">Storyboard Creation:</text>
+  <text x="370" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#pinkGrad08)" text-anchor="end">98% faster</text>
+  <text x="70" y="245" font-family="Arial, sans-serif" font-size="16" fill="white">Revision Turnaround:</text>
+  <text x="370" y="245" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#pinkGrad08)" text-anchor="end">99% faster</text>
+  <text x="70" y="275" font-family="Arial, sans-serif" font-size="16" fill="white">Quarterly Output:</text>
+  <text x="370" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#pinkGrad08)" text-anchor="end">10x more</text>
+
+  <!-- Financial Impact -->
+  <rect x="425" y="100" width="350" height="200" rx="12" fill="rgba(16,185,129,0.1)" stroke="url(#greenGrad08)" stroke-width="2"/>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="url(#greenGrad08)" text-anchor="middle">💰 Cost Reduction</text>
+  <line x1="445" y1="155" x2="755" y2="155" stroke="url(#greenGrad08)" stroke-width="1" opacity="0.5"/>
+  <text x="445" y="185" font-family="Arial, sans-serif" font-size="16" fill="white">Per Video:</text>
+  <text x="745" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#greenGrad08)" text-anchor="end">95% less</text>
+  <text x="445" y="215" font-family="Arial, sans-serif" font-size="16" fill="white">Localization:</text>
+  <text x="745" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#greenGrad08)" text-anchor="end">98% cheaper</text>
+  <text x="445" y="245" font-family="Arial, sans-serif" font-size="16" fill="white">Annual Savings:</text>
+  <text x="745" y="245" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#greenGrad08)" text-anchor="end">$3M+</text>
+  <text x="445" y="275" font-family="Arial, sans-serif" font-size="16" fill="white">Agency Reliance:</text>
+  <text x="745" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#greenGrad08)" text-anchor="end">Minimized</text>
+
+  <!-- Scale & Reach -->
+  <rect x="800" y="100" width="350" height="200" rx="12" fill="rgba(59,130,246,0.1)" stroke="#3b82f6" stroke-width="2"/>
+  <text x="975" y="140" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3b82f6" text-anchor="middle">🌍 Global Scale</text>
+  <line x1="820" y1="155" x2="1130" y2="155" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+  <text x="820" y="185" font-family="Arial, sans-serif" font-size="16" fill="white">Languages:</text>
+  <text x="1120" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="end">80+</text>
+  <text x="820" y="215" font-family="Arial, sans-serif" font-size="16" fill="white">Market Reach:</text>
+  <text x="1120" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="end">1500% increase</text>
+  <text x="820" y="245" font-family="Arial, sans-serif" font-size="16" fill="white">Personalization:</text>
+  <text x="1120" y="245" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="end">At Scale</text>
+  <text x="820" y="275" font-family="Arial, sans-serif" font-size="16" fill="white">Content Variants:</text>
+  <text x="1120" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="end">100s</text>
+
+  <!-- Strategic Benefits -->
+  <rect x="50" y="330" width="1100" height="210" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Strategic Business Advantages</text>
+  <line x1="70" y1="385" x2="1130" y2="385" stroke="white" stroke-width="1" opacity="0.3"/>
+
+  <text x="80" y="420" font-family="Arial, sans-serif" font-size="18" fill="white">🚀 Speed to Market:</text>
+  <text x="280" y="420" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe">Launch campaigns weeks ahead of competitors</text>
+
+  <text x="80" y="455" font-family="Arial, sans-serif" font-size="18" fill="white">🎯 Personalization:</text>
+  <text x="280" y="455" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe">Create audience-specific video variants easily</text>
+
+  <text x="80" y="490" font-family="Arial, sans-serif" font-size="18" fill="white">✅ Medical Compliance:</text>
+  <text x="280" y="490" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe">Maintain accuracy with document-grounded generation</text>
+
+  <text x="650" y="420" font-family="Arial, sans-serif" font-size="18" fill="white">📊 A/B Testing:</text>
+  <text x="800" y="420" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe">Test multiple creative approaches cost-effectively</text>
+
+  <text x="650" y="455" font-family="Arial, sans-serif" font-size="18" fill="white">📈 Scalability:</text>
+  <text x="800" y="455" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe">Support global campaigns without agency constraints</text>
+
+  <text x="650" y="490" font-family="Arial, sans-serif" font-size="18" fill="white">🌐 Global Reach:</text>
+  <text x="800" y="490" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe">Localize content for emerging markets economically</text>
+
+  <text x="600" y="575" font-family="Arial, sans-serif" font-size="14" fill="#93c5fd" text-anchor="middle">
+    GPT-4 • DALL-E-3 • Stable Diffusion • Elai.io • 80+ Languages
+  </text>
+</svg>

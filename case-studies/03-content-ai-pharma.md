@@ -77,6 +77,8 @@ Devkraft developed Content AI, an intelligent content generation platform:
 
 ## Business Impact
 
+![Business Impact Dashboard](images/03-business-impact.svg)
+
 ### Quantifiable Results
 | Metric | Before AI | After AI | Improvement |
 |--------|-----------|----------|-------------|

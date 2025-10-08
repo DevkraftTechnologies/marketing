@@ -80,6 +80,8 @@ Devkraft built an enterprise-grade semantic search and RAG platform:
 
 ## Business Impact
 
+![Business Impact Dashboard](images/04-business-impact.svg)
+
 ### Quantifiable Results
 | Metric | Before AI | After AI | Improvement |
 |--------|-----------|----------|-------------|

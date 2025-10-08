@@ -81,6 +81,8 @@ Devkraft developed a multi-model AI creative platform:
 
 ## Business Impact
 
+![ROI Achievements](images/06-roi-achievements.svg)
+
 ### Quantifiable Results
 | Metric | Before AI | After AI | Improvement |
 |--------|-----------|----------|-------------|
