@@ -66,6 +66,8 @@ Devkraft developed an AI-powered claim automation platform combining:
 
 ## Business Impact
 
+![Business Impact Dashboard](images/01-business-impact.svg)
+
 ### Quantifiable Results
 | Metric | Before AI | After AI | Improvement |
 |--------|-----------|----------|-------------|
