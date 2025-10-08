@@ -1,12 +1,12 @@
 Sr No,,Description,queries,data type,data type,code access,link to repo (s),link to case doc,link to demo,models,services,tags,owners
 ,,,input,input,output,Y/N,,,,,,,
-1,zaffco,Tire Claim Analysis  Automation,"text, image, docs","image, text, docs",text,Y,code,,,"YOLO, OpenAI",,,pratham
-2,chanakya,,,,,,"backend, frontend",,,,,,
+1,zaffco,AI-powered tire warranty claim analysis using computer vision (YOLOv8) and GPT-4o for defect detection and coverage recommendations,text,"image, video, text","text, image",Y,code,,,"YOLOv8, OpenAI GPT-4o","PostgreSQL, Redis","Python, FastAPI, Computer Vision, PyTorch, OpenCV",pratham
+2,chanakya,Healthcare insurance chatbot with RAG for policy Q&A and voice interactions using GPT-4 and Gemini,"text, audio, docs","text, audio","text, audio",Y,"backend, frontend",,,,"OpenAI GPT-4.1, GPT-4o-mini, Google Gemini 2.0, OpenAI Embeddings, ElevenLabs TTS","AWS S3, Qdrant, Helicone","Python, FastAPI, LangChain, RAG, Vector DB, NLP, TTS","harleen, sanidhya"
 3,insurance copilot,,audio,text,audio,Y,,,,"multiple tts, stt, llms",elevenlabs TTS,,"harleen, sanidhya"
-4,content ai,,,,,,backend,,,,,,
-5,indegene semantic search,,,,,,backend,,,,,,
+4,content ai,AI content generation for pharmaceutical marketing using GPT models with brand compliance rules and content universe management,"text, docs (Excel)","text, docs (HTML)",text,Y,backend,,,"OpenAI GPT-3.5-turbo, GPT-3.5-turbo-1106","PostgreSQL, Redis, Celery, AWS, Sentry","Python, FastAPI, SQLAlchemy, OpenAI API, Pandas, Docker",,
+5,indegene semantic search,RAG-based semantic search and document processing system with multi-modal support and AI-powered Q&A,"text, PDF, DOC, DOCX, PPT, PPTX, CSV, Excel, HTML, images, audio, video","text, PDF, DOC, PPT, HTML, JSON",text,Y,backend,,,"OpenAI (GPT-4o, GPT-4-turbo, GPT-4, GPT-3.5-turbo, embeddings), Claude (3-sonnet, 3-opus, 3-haiku, 3.5-sonnet), AssemblyAI, Perplexity","AWS S3, AWS Bedrock, PostgreSQL, PGVector, Redis, Tavily, SerpAPI, Langfuse, Sentry, Keycloak, Infogram","Python, FastAPI, LangChain, RAG, Vector DB, Celery, NLP, Machine Learning",,
 6,dentsu,,,,,,,,,,,,arsh
-7,mira,,,,,,frontend,,,,,,
-8,creative,Brand-compliant image creation tool,text,text,image,Y,backend,,super creative qa,"openai, imagen, flux, adobe",,,deepak
-9,HR assistant,,,,,,code,,,,,,
-10,content transcreation,,,,,,backend,,,,,,
+7,mira,Conference and clinical trial intelligence platform with AI-powered analysis and data processing,"text, docs (Excel, CSV), images","text, docs (Excel)",text,Y,frontend,,,"Backend AI (model o3)","Backend REST API, SSE, File processing, Clinical trials DB","React, TypeScript, Vite, Redux Toolkit, TailwindCSS, Radix UI",,
+8,creative,Brand-compliant AI image and character generation using multiple models (Adobe Firefly, Flux, RenderNet) with GPT-4 prompt enhancement,text,"text, image",image,Y,backend,,super creative qa,"OpenAI GPT-4 Turbo, Adobe Firefly, Flux (fal-ai), RenderNet","AWS S3, Adobe IMS, fal.ai, RenderNet API","Python, FastAPI, SQLAlchemy, OpenAI API, PIL, Docker",deepak
+9,HR assistant,AI-powered HR chatbot with RAG for employee onboarding, document verification, payroll and resume analysis with multi-LLM support,"text, image, docs (PDF, DOCX, CSV, JSON, MD, TXT), audio","text, audio",text,Y,code,,,"OpenAI (GPT-4, GPT-4o, GPT-4 Vision), Claude, Gemini, Mistral, Groq, Perplexity, Azure OpenAI, OpenRouter, Xenova embeddings","Supabase, Vercel, ElevenLabs, Custom Backend API","Next.js, TypeScript, React, TailwindCSS, PostgreSQL, RAG, LangChain, PWA, Docker",,
+10,content transcreation,AI-powered medical content transcreation with automated storyboard and video generation using multiple AI models,"PDF, PPTX, DOCX, text, images, video clips","text (storyboards), images, video, JSON",text,Y,backend,,,"OpenAI GPT-3.5-turbo, GPT-4, DALL-E-3, Stable Diffusion, Elai (video/avatars)","AWS S3, CloudFront, PostgreSQL, Redis, Celery, Elai.io, StableDiffusionAPI, Pexels, Predis.ai, Sentry","Python, FastAPI, LangChain, Celery, SQLAlchemy, PyMuPDF, python-pptx, SSE, Docker",,,
