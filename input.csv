@@ -1,0 +1,12 @@
+Sr No,,Description,queries,data type,data type,code access,link to repo (s),link to case doc,link to demo,models,services,tags,owners
+,,,input,input,output,Y/N,,,,,,,
+1,zaffco,Tire Claim Analysis  Automation,"text, image, docs","image, text, docs",text,Y,code,,,"YOLO, OpenAI",,,pratham
+2,chanakya,,,,,,"backend, frontend",,,,,,
+3,insurance copilot,,audio,text,audio,Y,,,,"multiple tts, stt, llms",elevenlabs TTS,,"harleen, sanidhya"
+4,content ai,,,,,,backend,,,,,,
+5,indegene semantic search,,,,,,backend,,,,,,
+6,dentsu,,,,,,,,,,,,arsh
+7,mira,,,,,,frontend,,,,,,
+8,creative,Brand-compliant image creation tool,text,text,image,Y,backend,,super creative qa,"openai, imagen, flux, adobe",,,deepak
+9,HR assistant,,,,,,code,,,,,,
+10,content transcreation,,,,,,backend,,,,,,
