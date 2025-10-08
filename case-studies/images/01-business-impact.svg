@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="before" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="after" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#1F2937">
+    Business Impact Dashboard
+  </text>
+  <text x="600" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#6B7280">
+    Before AI vs After AI Implementation
+  </text>
+
+  <!-- Metric 1: Processing Time -->
+  <g>
+    <rect x="50" y="120" width="250" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="175" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#374151">
+      ⏱️ Processing Time
+    </text>
+
+    <!-- Before bar -->
+    <rect x="80" y="180" width="80" height="100" rx="6" fill="url(#before)"/>
+    <text x="120" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      Before
+    </text>
+    <text x="120" y="235" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      5-7
+    </text>
+    <text x="120" y="255" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">
+      days
+    </text>
+
+    <!-- After bar -->
+    <rect x="190" y="260" width="80" height="20" rx="6" fill="url(#after)"/>
+    <text x="230" y="248" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#059669">
+      After
+    </text>
+    <text x="230" y="300" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#059669">
+      15 min
+    </text>
+
+    <text x="175" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#10B981">
+      ⬇️ 95% faster
+    </text>
+  </g>
+
+  <!-- Metric 2: Cost per Claim -->
+  <g>
+    <rect x="330" y="120" width="250" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="455" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#374151">
+      💰 Cost per Claim
+    </text>
+
+    <!-- Before bar -->
+    <rect x="360" y="180" width="80" height="90" rx="6" fill="url(#before)"/>
+    <text x="400" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      Before
+    </text>
+    <text x="400" y="235" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      $45
+    </text>
+
+    <!-- After bar -->
+    <rect x="470" y="252" width="80" height="18" rx="6" fill="url(#after)"/>
+    <text x="510" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#059669">
+      After
+    </text>
+    <text x="510" y="300" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#059669">
+      $8
+    </text>
+
+    <text x="455" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#10B981">
+      ⬇️ 82% reduction
+    </text>
+  </g>
+
+  <!-- Metric 3: Manual Review -->
+  <g>
+    <rect x="610" y="120" width="250" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="735" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#374151">
+      👥 Manual Review
+    </text>
+
+    <!-- Before bar -->
+    <rect x="640" y="180" width="80" height="100" rx="6" fill="url(#before)"/>
+    <text x="680" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      Before
+    </text>
+    <text x="680" y="235" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      100%
+    </text>
+
+    <!-- After bar -->
+    <rect x="750" y="265" width="80" height="15" rx="6" fill="url(#after)"/>
+    <text x="790" y="253" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#059669">
+      After
+    </text>
+    <text x="790" y="300" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#059669">
+      15%
+    </text>
+
+    <text x="735" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#10B981">
+      ⬇️ 85% reduction
+    </text>
+  </g>
+
+  <!-- Metric 4: Customer Satisfaction -->
+  <g>
+    <rect x="890" y="120" width="250" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="1015" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#374151">
+      😊 Customer Satisfaction
+    </text>
+
+    <!-- Before bar -->
+    <rect x="920" y="218" width="80" height="62" rx="6" fill="url(#before)"/>
+    <text x="960" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#DC2626">
+      Before
+    </text>
+    <text x="960" y="255" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      6.2
+    </text>
+    <text x="960" y="273" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">
+      /10
+    </text>
+
+    <!-- After bar -->
+    <rect x="1030" y="191" width="80" height="89" rx="6" fill="url(#after)"/>
+    <text x="1070" y="178" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#059669">
+      After
+    </text>
+    <text x="1070" y="240" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      8.9
+    </text>
+    <text x="1070" y="258" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">
+      /10
+    </text>
+
+    <text x="1015" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#10B981">
+      ⬆️ 44% improvement
+    </text>
+  </g>
+
+  <!-- Bottom Summary -->
+  <g>
+    <rect x="50" y="360" width="1100" height="200" rx="15" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+
+    <text x="600" y="395" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1E40AF">
+      🎯 Strategic Benefits
+    </text>
+
+    <g transform="translate(100, 420)">
+      <circle cx="0" cy="0" r="6" fill="#10B981"/>
+      <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+        <tspan font-weight="bold">Scalability:</tspan> Handle 10x claim volume without additional staff
+      </text>
+    </g>
+
+    <g transform="translate(100, 455)">
+      <circle cx="0" cy="0" r="6" fill="#10B981"/>
+      <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+        <tspan font-weight="bold">Consistency:</tspan> Standardized decision-making across all regions
+      </text>
+    </g>
+
+    <g transform="translate(100, 490)">
+      <circle cx="0" cy="0" r="6" fill="#10B981"/>
+      <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+        <tspan font-weight="bold">Data Insights:</tspan> Analytics on defect patterns inform product quality
+      </text>
+    </g>
+
+    <g transform="translate(100, 525)">
+      <circle cx="0" cy="0" r="6" fill="#10B981"/>
+      <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+        <tspan font-weight="bold">Competitive Advantage:</tspan> Industry-first AI-powered claim processing
+      </text>
+    </g>
+  </g>
+</svg>
