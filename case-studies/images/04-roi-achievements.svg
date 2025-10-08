@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad04" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#065f46;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad04" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad04" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad04" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cyanGrad04" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#bgGrad04)"/>
+
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">
+    Enterprise Semantic Search - Knowledge Intelligence ROI
+  </text>
+
+  <text x="700" y="100" font-family="Arial, sans-serif" font-size="20" fill="#e0e7ff" text-anchor="middle">
+    Multi-Modal RAG Platform • 100K+ Documents • Global Pharmaceutical Organization
+  </text>
+
+  <!-- Metric 1: 93% Faster Search -->
+  <rect x="80" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#goldGrad04)" stroke-width="3"/>
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#goldGrad04)" text-anchor="middle">93%</text>
+  <text x="220" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Faster</text>
+  <text x="220" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Information Search</text>
+  <text x="220" y="300" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">45 minutes → 3 minutes</text>
+  <text x="220" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">🔍</text>
+
+  <!-- Metric 2: $5M Saved -->
+  <rect x="400" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#greenGrad04)" stroke-width="3"/>
+  <text x="540" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#greenGrad04)" text-anchor="middle">$5M</text>
+  <text x="540" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Cost Avoidance</text>
+  <text x="540" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Duplicate Work</text>
+  <text x="540" y="300" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">200 → 20 incidents/year</text>
+  <text x="540" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">💰</text>
+
+  <!-- Metric 3: 600% ROI -->
+  <rect x="720" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#blueGrad04)" stroke-width="3"/>
+  <text x="860" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#blueGrad04)" text-anchor="middle">600%</text>
+  <text x="860" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">First Year</text>
+  <text x="860" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">ROI</text>
+  <text x="860" y="300" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">Productivity + savings</text>
+  <text x="860" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">📈</text>
+
+  <!-- Metric 4: 40% Productivity -->
+  <rect x="1040" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#cyanGrad04)" stroke-width="3"/>
+  <text x="1180" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#cyanGrad04)" text-anchor="middle">+40%</text>
+  <text x="1180" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Employee</text>
+  <text x="1180" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Productivity</text>
+  <text x="1180" y="300" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">Build on existing knowledge</text>
+  <text x="1180" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">⚡</text>
+
+  <!-- Bottom Stats Row -->
+  <rect x="80" y="430" width="400" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="280" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#goldGrad04)" text-anchor="middle">100K+</text>
+  <text x="280" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Documents Searchable</text>
+  <text x="280" y="540" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">Multi-format: PDF, DOC, PPT, Audio, Video</text>
+
+  <rect x="520" y="430" width="400" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="720" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#greenGrad04)" text-anchor="middle">75%</text>
+  <text x="720" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Knowledge Utilization</text>
+  <text x="720" y="540" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">Up from 15% • 400% increase</text>
+
+  <rect x="960" y="430" width="360" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="1140" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#blueGrad04)" text-anchor="middle">50%</text>
+  <text x="1140" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Faster Onboarding</text>
+  <text x="1140" y="540" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">8 weeks → 4 weeks new employees</text>
+
+  <!-- Technology Footer -->
+  <rect x="80" y="610" width="1240" height="120" rx="15" fill="rgba(255,255,255,0.05)"/>
+  <text x="700" y="650" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">
+    Multi-LLM: GPT-4o • Claude 3.5-sonnet • PGVector • AssemblyAI • Perplexity
+  </text>
+  <text x="700" y="690" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1" text-anchor="middle">
+    RAG Architecture • Semantic + Keyword Search • Multi-modal Processing • 50% Cost Savings
+  </text>
+
+  <text x="700" y="770" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" text-anchor="middle">
+    Global Pharmaceutical Organization • Indegene • Enterprise AI at Scale • 1000s of Users
+  </text>
+</svg>

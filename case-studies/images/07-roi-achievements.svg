@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad07" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14532d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0369a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad07" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad07" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad07" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tealGrad07" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#bgGrad07)"/>
+
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">
+    HR Assistant AI - Intelligent Employee Support ROI
+  </text>
+
+  <text x="700" y="100" font-family="Arial, sans-serif" font-size="20" fill="#dbeafe" text-anchor="middle">
+    Multi-Modal AI Chatbot • RAG Architecture • 8+ LLM Providers • Enterprise HR Automation
+  </text>
+
+  <!-- Metric 1: 99.8% Faster -->
+  <rect x="80" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#goldGrad07)" stroke-width="3"/>
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="url(#goldGrad07)" text-anchor="middle">99.8%</text>
+  <text x="220" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Faster</text>
+  <text x="220" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Response Time</text>
+  <text x="220" y="300" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe" text-anchor="middle">24-48 hrs → 10 seconds</text>
+  <text x="220" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">⚡</text>
+
+  <!-- Metric 2: 85% Ticket Reduction -->
+  <rect x="400" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#greenGrad07)" stroke-width="3"/>
+  <text x="540" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#greenGrad07)" text-anchor="middle">85%</text>
+  <text x="540" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">HR Ticket</text>
+  <text x="540" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Reduction</text>
+  <text x="540" y="300" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe" text-anchor="middle">500/week → 75/week</text>
+  <text x="540" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">📉</text>
+
+  <!-- Metric 3: 450% ROI -->
+  <rect x="720" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#blueGrad07)" stroke-width="3"/>
+  <text x="860" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#blueGrad07)" text-anchor="middle">450%</text>
+  <text x="860" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">First Year</text>
+  <text x="860" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">ROI</text>
+  <text x="860" y="300" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe" text-anchor="middle">Cost avoidance + productivity</text>
+  <text x="860" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">📈</text>
+
+  <!-- Metric 4: 24/7 Support -->
+  <rect x="1040" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#tealGrad07)" stroke-width="3"/>
+  <text x="1180" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#tealGrad07)" text-anchor="middle">24/7</text>
+  <text x="1180" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Employee</text>
+  <text x="1180" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Support</text>
+  <text x="1180" y="300" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe" text-anchor="middle">8 hours → Always available</text>
+  <text x="1180" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">🌍</text>
+
+  <!-- Bottom Stats Row -->
+  <rect x="80" y="430" width="400" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="280" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#goldGrad07)" text-anchor="middle">90</text>
+  <text x="280" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Employee Satisfaction (eNPS)</text>
+  <text x="280" y="540" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe" text-anchor="middle">Up from 65 • 38% improvement</text>
+
+  <rect x="520" y="430" width="400" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="720" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#greenGrad07)" text-anchor="middle">250%</text>
+  <text x="720" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">HR Team Productivity</text>
+  <text x="720" y="540" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe" text-anchor="middle">2.5x gain • Focus on strategy</text>
+
+  <rect x="960" y="430" width="360" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="1140" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#blueGrad07)" text-anchor="middle">60%</text>
+  <text x="1140" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Faster Onboarding</text>
+  <text x="1140" y="540" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe" text-anchor="middle">3-4 weeks → 1-2 weeks</text>
+
+  <!-- Technology Footer -->
+  <rect x="80" y="610" width="1240" height="120" rx="15" fill="rgba(255,255,255,0.05)"/>
+  <text x="700" y="650" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">
+    Multi-LLM: GPT-4o • Claude • Gemini • Mistral • Groq • Next.js • Supabase
+  </text>
+  <text x="700" y="690" font-family="Arial, sans-serif" font-size="18" fill="#dbeafe" text-anchor="middle">
+    RAG Architecture • Document Verification • Payroll Analysis • Voice Interface • 65% Cost Savings
+  </text>
+
+  <text x="700" y="770" font-family="Arial, sans-serif" font-size="16" fill="#93c5fd" text-anchor="middle">
+    Enterprise HR Departments • 1,000+ Employees • 500+ Policy Documents • Multi-Modal Processing
+  </text>
+</svg>

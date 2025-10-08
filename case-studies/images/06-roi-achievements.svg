@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad06" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#581c87;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#db2777;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad06" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad06" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad06" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pinkGrad06" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#db2777;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#bgGrad06)"/>
+
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">
+    Creative AI - Brand Image Generation Platform ROI
+  </text>
+
+  <text x="700" y="100" font-family="Arial, sans-serif" font-size="20" fill="#fce7f3" text-anchor="middle">
+    Multi-Model AI Image Generation • Adobe Firefly • Flux • RenderNet • Global Pharma
+  </text>
+
+  <!-- Metric 1: 99% Faster -->
+  <rect x="80" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#goldGrad06)" stroke-width="3"/>
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#goldGrad06)" text-anchor="middle">99%</text>
+  <text x="220" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Faster Creative</text>
+  <text x="220" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Production</text>
+  <text x="220" y="300" font-family="Arial, sans-serif" font-size="16" fill="#fce7f3" text-anchor="middle">2-4 weeks → 2-5 minutes</text>
+  <text x="220" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">🎨</text>
+
+  <!-- Metric 2: 95% Cost Reduction -->
+  <rect x="400" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#greenGrad06)" stroke-width="3"/>
+  <text x="540" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#greenGrad06)" text-anchor="middle">95%</text>
+  <text x="540" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Cost</text>
+  <text x="540" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Reduction</text>
+  <text x="540" y="300" font-family="Arial, sans-serif" font-size="16" fill="#fce7f3" text-anchor="middle">$2K-$5K → $50-$100</text>
+  <text x="540" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">💰</text>
+
+  <!-- Metric 3: Unlimited Variations -->
+  <rect x="720" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#blueGrad06)" stroke-width="3"/>
+  <text x="860" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#blueGrad06)" text-anchor="middle">∞</text>
+  <text x="860" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Creative</text>
+  <text x="860" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Variations</text>
+  <text x="860" y="300" font-family="Arial, sans-serif" font-size="16" fill="#fce7f3" text-anchor="middle">2-3 → Unlimited concepts</text>
+  <text x="860" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">🎭</text>
+
+  <!-- Metric 4: $1.5M Savings -->
+  <rect x="1040" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#pinkGrad06)" stroke-width="3"/>
+  <text x="1180" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#pinkGrad06)" text-anchor="middle">$1.5M</text>
+  <text x="1180" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Annual</text>
+  <text x="1180" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Savings</text>
+  <text x="1180" y="300" font-family="Arial, sans-serif" font-size="16" fill="#fce7f3" text-anchor="middle">Agency fees + faster TTM</text>
+  <text x="1180" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">💎</text>
+
+  <!-- Bottom Stats Row -->
+  <rect x="80" y="430" width="400" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="280" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#goldGrad06)" text-anchor="middle">40x</text>
+  <text x="280" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Creative Testing Volume</text>
+  <text x="280" y="540" font-family="Arial, sans-serif" font-size="16" fill="#fce7f3" text-anchor="middle">50 → 2,000 images/month</text>
+
+  <rect x="520" y="430" width="400" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="720" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#greenGrad06)" text-anchor="middle">87%</text>
+  <text x="720" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Faster Campaign Launch</text>
+  <text x="720" y="540" font-family="Arial, sans-serif" font-size="16" fill="#fce7f3" text-anchor="middle">8 weeks → 1 week to market</text>
+
+  <rect x="960" y="430" width="360" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="1140" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#blueGrad06)" text-anchor="middle">99%</text>
+  <text x="1140" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Faster Revisions</text>
+  <text x="1140" y="540" font-family="Arial, sans-serif" font-size="16" fill="#fce7f3" text-anchor="middle">3-5 days → 5 minutes</text>
+
+  <!-- Technology Footer -->
+  <rect x="80" y="610" width="1240" height="120" rx="15" fill="rgba(255,255,255,0.05)"/>
+  <text x="700" y="650" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">
+    GPT-4 Turbo • Adobe Firefly • Flux (fal.ai) • RenderNet • AWS S3
+  </text>
+  <text x="700" y="690" font-family="Arial, sans-serif" font-size="18" fill="#fce7f3" text-anchor="middle">
+    Character Consistency • Style Reference • Brand Guardrails • Batch Generation • 75 Trained Users
+  </text>
+
+  <text x="700" y="770" font-family="Arial, sans-serif" font-size="16" fill="#fda4af" text-anchor="middle">
+    Global Pharmaceutical Marketing • Indegene Portfolio • 15+ Product Brands • Enterprise Creative AI
+  </text>
+</svg>

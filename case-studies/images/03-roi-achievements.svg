@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad03" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad03" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad03" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad03" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="purpleGrad03" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#bgGrad03)"/>
+
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">
+    Content AI - Pharmaceutical Marketing ROI
+  </text>
+
+  <text x="700" y="100" font-family="Arial, sans-serif" font-size="20" fill="#e0e7ff" text-anchor="middle">
+    AI-Powered Content Generation with Brand Compliance
+  </text>
+
+  <!-- Metric 1: 10x Faster -->
+  <rect x="80" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#goldGrad03)" stroke-width="3"/>
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#goldGrad03)" text-anchor="middle">10x</text>
+  <text x="220" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Faster Content</text>
+  <text x="220" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Production</text>
+  <text x="220" y="300" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">2-3 weeks → 2-4 hours</text>
+  <text x="220" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">⚡</text>
+
+  <!-- Metric 2: 90% Cost Reduction -->
+  <rect x="400" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#greenGrad03)" stroke-width="3"/>
+  <text x="540" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#greenGrad03)" text-anchor="middle">90%</text>
+  <text x="540" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Cost Reduction</text>
+  <text x="540" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Per Content Piece</text>
+  <text x="540" y="300" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">$5K-$10K → $500-$800</text>
+  <text x="540" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">💰</text>
+
+  <!-- Metric 3: 95% Compliance -->
+  <rect x="720" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#blueGrad03)" stroke-width="3"/>
+  <text x="860" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#blueGrad03)" text-anchor="middle">95%</text>
+  <text x="860" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Compliance</text>
+  <text x="860" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Pass Rate</text>
+  <text x="860" y="300" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">60% → 95% first draft</text>
+  <text x="860" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">✅</text>
+
+  <!-- Metric 4: $2M Savings -->
+  <rect x="1040" y="150" width="280" height="240" rx="15" fill="rgba(255,255,255,0.1)" stroke="url(#purpleGrad03)" stroke-width="3"/>
+  <text x="1180" y="200" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#purpleGrad03)" text-anchor="middle">$2M+</text>
+  <text x="1180" y="240" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Annual</text>
+  <text x="1180" y="265" font-family="Arial, sans-serif" font-size="22" fill="white" text-anchor="middle">Savings</text>
+  <text x="1180" y="300" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">Agency fees + TTM</text>
+  <text x="1180" y="360" font-family="Arial, sans-serif" font-size="48" text-anchor="middle">💎</text>
+
+  <!-- Bottom Stats Row -->
+  <rect x="80" y="430" width="400" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="280" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#goldGrad03)" text-anchor="middle">500+</text>
+  <text x="280" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Content Pieces Monthly</text>
+  <text x="280" y="540" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">10x increase in output</text>
+
+  <rect x="520" y="430" width="400" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="720" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#greenGrad03)" text-anchor="middle">70%</text>
+  <text x="720" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Faster Campaign Launch</text>
+  <text x="720" y="540" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">8-10 weeks → 2-3 weeks</text>
+
+  <rect x="960" y="430" width="360" height="140" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="1140" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#blueGrad03)" text-anchor="middle">85%</text>
+  <text x="1140" y="510" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Faster Med-Legal Review</text>
+  <text x="1140" y="540" font-family="Arial, sans-serif" font-size="16" fill="#cbd5e1" text-anchor="middle">3-5 days → 4-8 hours</text>
+
+  <!-- Technology Footer -->
+  <rect x="80" y="610" width="1240" height="120" rx="15" fill="rgba(255,255,255,0.05)"/>
+  <text x="700" y="650" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">
+    AI Technologies: GPT-3.5-turbo • Rule-based Compliance • FastAPI • PostgreSQL
+  </text>
+  <text x="700" y="690" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1" text-anchor="middle">
+    10,000+ Approved Claims • 50+ Templates • Multi-region Support • Complete Audit Trail
+  </text>
+
+  <text x="700" y="770" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" text-anchor="middle">
+    Global Pharmaceutical Company • Indegene Portfolio • Leading Pharma Marketing Innovation
+  </text>
+</svg>
