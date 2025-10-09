@@ -1,0 +1,71 @@
+<svg width="1000" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="450" fill="#ffffff"/>
+  <text x="500" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    AI HR Assistant - Business Impact
+  </text>
+
+  <g transform="translate(50, 70)">
+    <rect width="180" height="120" fill="#3498db" stroke="#2980b9" stroke-width="3" rx="10"/>
+    <text x="90" y="45" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="#ffffff">99.8%</text>
+    <text x="90" y="72" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#ffffff">Faster</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#ffffff">Responses</text>
+    <text x="90" y="110" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ecf0f1">24-48hrs → 10 sec</text>
+  </g>
+
+  <g transform="translate(260, 70)">
+    <rect width="180" height="120" fill="#27ae60" stroke="#229954" stroke-width="3" rx="10"/>
+    <text x="90" y="45" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">85%</text>
+    <text x="90" y="72" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#ffffff">Ticket</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#ffffff">Reduction</text>
+    <text x="90" y="110" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#d5f4e6">500 → 75 /week</text>
+  </g>
+
+  <g transform="translate(470, 70)">
+    <rect width="180" height="120" fill="#e74c3c" stroke="#c0392b" stroke-width="3" rx="10"/>
+    <text x="90" y="45" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">24/7</text>
+    <text x="90" y="72" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#ffffff">Always</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#ffffff">Available</text>
+    <text x="90" y="110" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fadbd8">300% increase</text>
+  </g>
+
+  <g transform="translate(680, 70)">
+    <rect width="180" height="120" fill="#9b59b6" stroke="#8e44ad" stroke-width="3" rx="10"/>
+    <text x="90" y="45" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">90</text>
+    <text x="90" y="72" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#ffffff">Satisfaction</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#ffffff">Score</text>
+    <text x="90" y="110" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#e8daef">eNPS 65 → 90</text>
+  </g>
+
+  <rect x="50" y="220" width="900" height="50" fill="#f39c12" stroke="#e67e22" stroke-width="3" rx="8"/>
+  <text x="500" y="252" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    ROI: 450% in First Year ($200K Cost Avoidance + Productivity Gains)
+  </text>
+
+  <text x="500" y="305" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Multi-Modal Capabilities
+  </text>
+
+  <rect x="100" y="325" width="260" height="45" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="230" y="352" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    8+ LLM Providers
+  </text>
+
+  <rect x="390" y="325" width="260" height="45" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="520" y="352" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    65% Cost Savings
+  </text>
+
+  <rect x="680" y="325" width="260" height="45" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="810" y="352" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Voice + Vision AI
+  </text>
+
+  <text x="500" y="405" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Specialized AI Features
+  </text>
+
+  <text x="200" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555555">• ID Verification</text>
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555555">• Payroll Analysis</text>
+  <text x="600" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555555">• Resume Screening</text>
+  <text x="800" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555555">• Voice Interface</text>
+</svg>

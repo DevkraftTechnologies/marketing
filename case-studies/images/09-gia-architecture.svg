@@ -1,0 +1,130 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f8f9fa"/>
+
+  <!-- Title -->
+  <text x="500" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    GIA Platform Architecture
+  </text>
+
+  <!-- Layer 1: Client Layer -->
+  <rect x="50" y="80" width="900" height="80" fill="#3498db" stroke="#2980b9" stroke-width="3" rx="8"/>
+  <text x="500" y="115" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    Client Applications
+  </text>
+  <text x="500" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">
+    Web Portal • Mobile Apps • API Integrations • Marketing Tools
+  </text>
+
+  <!-- Layer 2: API Gateway -->
+  <rect x="50" y="200" width="900" height="70" fill="#9b59b6" stroke="#8e44ad" stroke-width="3" rx="8"/>
+  <text x="500" y="230" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    API Gateway Layer
+  </text>
+  <text x="500" y="252" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff">
+    Azure Functions (HTTP Triggers) • Authentication • Rate Limiting • WebPubSub (Real-time Streaming)
+  </text>
+
+  <!-- Layer 3: Application Services -->
+  <g>
+    <rect x="50" y="310" width="280" height="160" fill="#e74c3c" stroke="#c0392b" stroke-width="3" rx="8"/>
+    <text x="190" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">
+      Generation Services
+    </text>
+    <text x="70" y="370" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Dynamic Chain Generation</text>
+    <text x="70" y="392" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Quick Gen (Fast Mode)</text>
+    <text x="70" y="414" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• LangChain Orchestration</text>
+    <text x="70" y="436" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Prompt Engineering</text>
+    <text x="70" y="458" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Token-by-token Streaming</text>
+  </g>
+
+  <g>
+    <rect x="360" y="310" width="280" height="160" fill="#16a085" stroke="#138d75" stroke-width="3" rx="8"/>
+    <text x="500" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">
+      Validation Services
+    </text>
+    <text x="380" y="370" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Groundedness Detection</text>
+    <text x="380" y="392" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Content Safety Filters</text>
+    <text x="380" y="414" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Brand Compliance Check</text>
+    <text x="380" y="436" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Citation Tracking</text>
+    <text x="380" y="458" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Quality Scoring</text>
+  </g>
+
+  <g>
+    <rect x="670" y="310" width="280" height="160" fill="#f39c12" stroke="#e67e22" stroke-width="3" rx="8"/>
+    <text x="810" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">
+      Document Processing
+    </text>
+    <text x="690" y="370" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Multi-format Ingestion</text>
+    <text x="690" y="392" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Document Intelligence</text>
+    <text x="690" y="414" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Vector Embeddings</text>
+    <text x="690" y="436" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Semantic Chunking</text>
+    <text x="690" y="458" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">• Metadata Extraction</text>
+  </g>
+
+  <!-- Layer 4: Data & AI Layer -->
+  <g>
+    <rect x="50" y="510" width="210" height="120" fill="#34495e" stroke="#2c3e50" stroke-width="3" rx="8"/>
+    <text x="155" y="540" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">
+      Azure OpenAI
+    </text>
+    <text x="70" y="570" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• GPT-4 / GPT-4-turbo</text>
+    <text x="70" y="590" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Embeddings (ada-002)</text>
+    <text x="70" y="610" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Content Generation</text>
+  </g>
+
+  <g>
+    <rect x="290" y="510" width="210" height="120" fill="#27ae60" stroke="#229954" stroke-width="3" rx="8"/>
+    <text x="395" y="540" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">
+      Azure AI Search
+    </text>
+    <text x="310" y="570" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Vector Store</text>
+    <text x="310" y="590" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Hybrid Search</text>
+    <text x="310" y="610" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Semantic Retrieval</text>
+  </g>
+
+  <g>
+    <rect x="530" y="510" width="210" height="120" fill="#2980b9" stroke="#21618c" stroke-width="3" rx="8"/>
+    <text x="635" y="540" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">
+      Cosmos DB
+    </text>
+    <text x="550" y="570" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Brand Configurations</text>
+    <text x="550" y="590" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Generated Content</text>
+    <text x="550" y="610" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• User Metadata</text>
+  </g>
+
+  <g>
+    <rect x="770" y="510" width="180" height="120" fill="#8e44ad" stroke="#6c3483" stroke-width="3" rx="8"/>
+    <text x="860" y="540" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">
+      Blob Storage
+    </text>
+    <text x="790" y="570" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Brand Assets</text>
+    <text x="790" y="590" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Documents</text>
+    <text x="790" y="610" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">• Media Files</text>
+  </g>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#555555"/>
+    </marker>
+  </defs>
+
+  <!-- Vertical connections -->
+  <line x1="500" y1="160" x2="500" y2="200" stroke="#555555" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="190" y1="270" x2="190" y2="310" stroke="#555555" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="270" x2="500" y2="310" stroke="#555555" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="810" y1="270" x2="810" y2="310" stroke="#555555" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- From services to data layer -->
+  <line x1="190" y1="470" x2="155" y2="510" stroke="#555555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="190" y1="470" x2="395" y2="510" stroke="#555555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="470" x2="635" y2="510" stroke="#555555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="810" y1="470" x2="860" y2="510" stroke="#555555" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Key Features Box -->
+  <rect x="50" y="660" width="900" height="30" fill="#ecf0f1" stroke="#95a5a6" stroke-width="2" rx="5"/>
+  <text x="500" y="682" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Multi-tenant • Brand-specific Knowledge Bases • Real-time Streaming • Serverless Auto-scaling
+  </text>
+</svg>
