@@ -72,7 +72,6 @@ Devkraft developed Chanakya, an intelligent insurance copilot powered by:
 - Monitoring and analytics dashboard
 - Continuous model fine-tuning
 
----
 
 ## Business Impact
 

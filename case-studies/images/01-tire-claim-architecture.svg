@@ -1,0 +1,230 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1F2937">
+    AI-Powered Tire Claim Analysis System Architecture
+  </text>
+
+  <!-- Input Layer -->
+  <g id="input-layer">
+    <rect x="50" y="100" width="200" height="120" rx="10" fill="url(#grad1)" filter="url(#shadow)"/>
+    <text x="150" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Claim Input
+    </text>
+    <text x="150" y="155" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      • Images
+    </text>
+    <text x="150" y="175" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      • Videos
+    </text>
+    <text x="150" y="195" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      • Text Description
+    </text>
+  </g>
+
+  <!-- AI Processing Layer -->
+  <g id="ai-processing">
+    <!-- YOLOv8 -->
+    <rect x="320" y="80" width="180" height="80" rx="8" fill="#3B82F6" filter="url(#shadow)"/>
+    <text x="410" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      YOLOv8
+    </text>
+    <text x="410" y="125" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      Computer Vision
+    </text>
+    <text x="410" y="142" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      95% Accuracy
+    </text>
+
+    <!-- GPT-4o Vision -->
+    <rect x="320" y="180" width="180" height="80" rx="8" fill="#8B5CF6" filter="url(#shadow)"/>
+    <text x="410" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      GPT-4o Vision
+    </text>
+    <text x="410" y="225" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      Context Analysis
+    </text>
+    <text x="410" y="242" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      Damage Assessment
+    </text>
+  </g>
+
+  <!-- Rules Engine -->
+  <g id="rules-engine">
+    <rect x="560" y="100" width="200" height="120" rx="10" fill="url(#grad2)" filter="url(#shadow)"/>
+    <text x="660" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Business Rules
+    </text>
+    <text x="660" y="155" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      Warranty Validation
+    </text>
+    <text x="660" y="175" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      Policy Compliance
+    </text>
+    <text x="660" y="195" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      Decision Logic
+    </text>
+  </g>
+
+  <!-- Output -->
+  <g id="output">
+    <rect x="820" y="100" width="200" height="120" rx="10" fill="#DC2626" filter="url(#shadow)"/>
+    <text x="920" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Decision Output
+    </text>
+    <text x="920" y="155" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      ✓ Approve/Deny
+    </text>
+    <text x="920" y="175" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      ✓ Confidence Score
+    </text>
+    <text x="920" y="195" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      ✓ Audit Trail
+    </text>
+  </g>
+
+  <!-- Arrows -->
+  <path d="M 250 160 L 310 130" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 250 160 L 310 220" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 500 120 L 550 140" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 500 220 L 550 180" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 760 160 L 810 160" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- Backend Infrastructure -->
+  <g id="backend">
+    <rect x="100" y="300" width="900" height="60" rx="8" fill="#6366F1" opacity="0.1" stroke="#6366F1" stroke-width="2"/>
+    <text x="550" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4B5563">
+      Backend Infrastructure
+    </text>
+    <text x="550" y="345" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#6B7280">
+      FastAPI • PostgreSQL • Redis • Docker • PyTorch • OpenCV
+    </text>
+  </g>
+
+  <!-- Key Metrics -->
+  <text x="600" y="410" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1F2937">
+    Business Impact Metrics
+  </text>
+
+  <!-- Metric Cards -->
+  <g id="metric-1">
+    <rect x="80" y="440" width="220" height="140" rx="10" fill="#EEF2FF" filter="url(#shadow)"/>
+    <text x="190" y="470" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#4F46E5">
+      95%
+    </text>
+    <text x="190" y="500" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6B7280">
+      Faster Processing
+    </text>
+    <text x="190" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#9CA3AF">
+      5-7 days → 15 min
+    </text>
+    <text x="190" y="555" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10B981" font-weight="bold">
+      ↑ 2,880% improvement
+    </text>
+  </g>
+
+  <g id="metric-2">
+    <rect x="330" y="440" width="220" height="140" rx="10" fill="#F0FDF4" filter="url(#shadow)"/>
+    <text x="440" y="470" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#059669">
+      82%
+    </text>
+    <text x="440" y="500" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6B7280">
+      Cost Reduction
+    </text>
+    <text x="440" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#9CA3AF">
+      $45 → $8 per claim
+    </text>
+    <text x="440" y="555" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10B981" font-weight="bold">
+      ↓ $37 savings
+    </text>
+  </g>
+
+  <g id="metric-3">
+    <rect x="580" y="440" width="220" height="140" rx="10" fill="#FEF3C7" filter="url(#shadow)"/>
+    <text x="690" y="470" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#D97706">
+      85%
+    </text>
+    <text x="690" y="500" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6B7280">
+      Manual Reduction
+    </text>
+    <text x="690" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#9CA3AF">
+      100% → 15% manual
+    </text>
+    <text x="690" y="555" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10B981" font-weight="bold">
+      ↓ 85% reviews
+    </text>
+  </g>
+
+  <g id="metric-4">
+    <rect x="830" y="440" width="220" height="140" rx="10" fill="#FCE7F3" filter="url(#shadow)"/>
+    <text x="940" y="470" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#BE185D">
+      8.9/10
+    </text>
+    <text x="940" y="500" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6B7280">
+      Customer Score
+    </text>
+    <text x="940" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#9CA3AF">
+      6.2 → 8.9
+    </text>
+    <text x="940" y="555" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10B981" font-weight="bold">
+      ↑ 44% satisfaction
+    </text>
+  </g>
+
+  <!-- Tech Stack -->
+  <g id="tech-stack">
+    <text x="600" y="630" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1F2937">
+      Technology Stack
+    </text>
+
+    <!-- AI Models -->
+    <rect x="150" y="650" width="300" height="100" rx="8" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="300" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#374151">
+      AI/ML Models
+    </text>
+    <text x="300" y="700" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#6B7280">
+      YOLOv8 (Ultralytics)
+    </text>
+    <text x="300" y="720" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#6B7280">
+      OpenAI GPT-4o Vision
+    </text>
+    <text x="300" y="740" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#6B7280">
+      PyTorch • OpenCV
+    </text>
+
+    <!-- Infrastructure -->
+    <rect x="480" y="650" width="300" height="100" rx="8" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="630" y="675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#374151">
+      Infrastructure
+    </text>
+    <text x="630" y="700" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#6B7280">
+      FastAPI • PostgreSQL • Redis
+    </text>
+    <text x="630" y="720" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#6B7280">
+      Docker • REST API
+    </text>
+    <text x="630" y="740" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#6B7280">
+      Python • SQLAlchemy
+    </text>
+  </g>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#4B5563" />
+    </marker>
+  </defs>
+</svg>

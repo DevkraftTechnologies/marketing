@@ -64,6 +64,12 @@ Devkraft developed an AI-powered claim automation platform combining:
 
 ---
 
+## System Architecture
+
+![Tire Claim Analysis System Architecture](images/01-tire-claim-architecture.svg)
+
+---
+
 ## Business Impact
 
 ![Business Impact Dashboard](images/01-business-impact.svg)
