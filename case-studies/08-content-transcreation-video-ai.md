@@ -253,22 +253,3 @@ Devkraft developed an end-to-end AI video generation platform:
 4. **Personalization Engine:** Patient-specific education videos
 5. **Analytics:** Track video engagement and learning outcomes
 6. **AR/VR Integration:** Immersive medical training experiences
-
----
-
-## Why This Matters for GITEX 2025
-
-This case study demonstrates:
-- ✅ **Multi-Modal AI:** Documents, images, video, voice unified
-- ✅ **Healthtech Innovation:** Medical education at scale
-- ✅ **Global Impact:** 80+ languages, democratizing medical knowledge
-- ✅ **Production Disruption:** 95% cost reduction, 95% faster
-- ✅ **Enterprise Scale:** Production system for global pharma
-- ✅ **Creative + Compliance:** AI that understands medical accuracy requirements
-
-**Perfect fit for GITEX focus areas:** AI, Healthtech, Content Creation, Global Accessibility
-
----
-
-**Contact:** Transform your medical content production
-**Demo Available:** Watch AI create a medical video in real-time at GITEX Booth - bring your clinical document!

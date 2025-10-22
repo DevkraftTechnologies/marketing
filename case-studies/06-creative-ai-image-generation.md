@@ -221,20 +221,3 @@ The platform automatically selects the best AI model for each use case:
 6. **Custom Model Training:** Fine-tune on specific brand imagery
 
 ---
-
-## Why This Matters for GITEX 2025
-
-This case study demonstrates:
-- ✅ **Multi-Model Innovation:** Orchestrating 4+ AI models for optimal results
-- ✅ **Enterprise AI:** Production system with brand governance
-- ✅ **Creative Disruption:** 95% cost reduction, 99% faster output
-- ✅ **Character Consistency:** Solving a key AI challenge
-- ✅ **Industry-First:** Purpose-built for regulated pharma marketing
-- ✅ **Measurable ROI:** $1.5M annual savings
-
-**Perfect fit for GITEX focus areas:** AI, Creative Tech, Enterprise Innovation, Marketing Transformation
-
----
-
-**Contact:** Revolutionize your creative production with AI
-**Demo Available:** Live image generation at GITEX Booth - bring your brand brief!

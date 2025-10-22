@@ -241,20 +241,3 @@ The system automatically selects the optimal model:
 6. **Predictive Analytics:** Forecast turnover and engagement
 
 ---
-
-## Why This Matters for GITEX 2025
-
-This case study demonstrates:
-- ✅ **Multi-Modal AI:** Text, voice, vision for complete HR automation
-- ✅ **Enterprise Ready:** Production system with security and compliance
-- ✅ **Multi-LLM Architecture:** Best-in-class model selection for cost and quality
-- ✅ **Real-World ROI:** 450% first-year return, 85% ticket reduction
-- ✅ **Employee Experience:** 90% satisfaction, 24/7 availability
-- ✅ **Scalable Platform:** Next.js + Supabase for millions of users
-
-**Perfect fit for GITEX focus areas:** AI, Enterprise Productivity, Employee Experience, Digital Transformation
-
----
-
-**Contact:** Transform your HR operations with AI
-**Demo Available:** Live Q&A and document processing at GITEX Booth

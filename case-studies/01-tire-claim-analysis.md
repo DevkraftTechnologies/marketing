@@ -125,18 +125,3 @@ Devkraft developed an AI-powered claim automation platform combining:
 4. **Multi-language Support:** Expand to international markets
 
 ---
-
-## Why This Matters for GITEX 2025
-
-This case study demonstrates:
-- ✅ **AI-First Innovation:** Combining computer vision + LLMs for business value
-- ✅ **Real-world ROI:** Measurable cost savings and efficiency gains
-- ✅ **Enterprise-Ready:** Production deployment with compliance and security
-- ✅ **Industry Transformation:** Reimagining traditional insurance processes with AI
-
-**Perfect fit for GITEX focus areas:** AI, Enterprise Innovation, Digital Transformation
-
----
-
-**Contact:** Ready to transform your claim processing?
-**Demo Available:** Live system demonstration at GITEX Booth

@@ -164,19 +164,3 @@ This ensures best-in-class accuracy while controlling operational costs.
 4. **Integration with Wearables:** Policy insights based on health data
 
 ---
-
-## Why This Matters for GITEX 2025
-
-This case study demonstrates:
-- ✅ **Healthtech Innovation:** AI transforming healthcare access
-- ✅ **RAG Excellence:** Production-grade retrieval-augmented generation
-- ✅ **Multi-modal AI:** Voice + text for inclusive access
-- ✅ **Scalable Architecture:** Serving millions of policy queries
-- ✅ **Cost Efficiency:** 98% reduction in support costs
-
-**Perfect fit for GITEX focus areas:** AI, Healthtech, Customer Experience Innovation
-
----
-
-**Contact:** Transform your customer support with AI
-**Demo Available:** Live voice interaction at GITEX Booth

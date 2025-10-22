@@ -205,20 +205,3 @@ The platform handles diverse content types:
 5. **Cross-lingual Search:** Multi-language knowledge access
 
 ---
-
-## Why This Matters for GITEX 2025
-
-This case study demonstrates:
-- ✅ **Enterprise AI at Scale:** 100K+ documents, 1000s of users
-- ✅ **Multi-modal Innovation:** Text, audio, video, images unified
-- ✅ **RAG Excellence:** Production-grade retrieval-augmented generation
-- ✅ **Cost-Conscious AI:** Intelligent routing for 50% cost savings
-- ✅ **Measurable ROI:** $5M saved, 600% first-year ROI
-- ✅ **Security-First:** Enterprise-grade access control and compliance
-
-**Perfect fit for GITEX focus areas:** AI, Enterprise Productivity, Digital Transformation
-
----
-
-**Contact:** Unlock your organization's knowledge potential
-**Demo Available:** Live search & Q&A demo at GITEX Booth

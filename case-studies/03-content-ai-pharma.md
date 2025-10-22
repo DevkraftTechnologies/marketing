@@ -177,19 +177,3 @@ This ensures all AI-generated content is grounded in approved, evidence-based in
 5. **Predictive Analytics:** Forecast content performance before launch
 
 ---
-
-## Why This Matters for GITEX 2025
-
-This case study demonstrates:
-- ✅ **Industry-Specific AI:** Purpose-built for highly regulated pharma sector
-- ✅ **Compliance-First:** AI that understands regulatory constraints
-- ✅ **Enterprise Scale:** Production system serving global marketing teams
-- ✅ **ROI Proven:** $2M annual savings with measurable efficiency gains
-- ✅ **Human-AI Collaboration:** Augmenting creativity, not replacing it
-
-**Perfect fit for GITEX focus areas:** AI, Healthcare Innovation, Enterprise Productivity
-
----
-
-**Contact:** Accelerate your regulated content production
-**Demo Available:** Live content generation at GITEX Booth

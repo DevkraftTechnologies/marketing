@@ -213,20 +213,3 @@ All intelligence is tagged, searchable, and linked to relevant trials and produc
 6. **Mobile App:** On-site intelligence capture
 
 ---
-
-## Why This Matters for GITEX 2025
-
-This case study demonstrates:
-- ✅ **Healthtech Innovation:** AI transforming clinical development
-- ✅ **Data Integration:** Unifying disparate sources (conferences, trials, publications)
-- ✅ **Real-world AI:** Production system serving top pharma companies
-- ✅ **User-Centric Design:** Complex data made accessible through AI chat
-- ✅ **Business Impact:** $3M annual value with measurable ROI
-- ✅ **Industry Expertise:** Deep domain knowledge in life sciences
-
-**Perfect fit for GITEX focus areas:** AI, Healthtech, Data Intelligence, Enterprise SaaS
-
----
-
-**Contact:** Transform your clinical intelligence operations
-**Demo Available:** Live MIRA demo with real trial data at GITEX Booth
