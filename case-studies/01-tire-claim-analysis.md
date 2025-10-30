@@ -425,6 +425,7 @@ Structured JSON logging of every decision, applied rule, and AI analysis. This w
 | **Validation** | Pydantic | 2.5.0 | Data validation |
 | **Logging** | Structlog | 23.2.0 | Structured logging |
 | **Image Processing** | Pillow | 10.1.0 | Image quality assessment |
+| **File Storage** | AWS S3 (Boto3) | 1.35.20 | Uploaded media storage |
 
 ---
 
