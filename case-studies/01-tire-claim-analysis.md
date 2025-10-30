@@ -9,7 +9,7 @@
 **Industry:** Tire Manufacturing & Warranty Processing
 **Challenge:** Manual claims processing taking 48+ hours with 30% inconsistency
 **Solution:** AI-powered automation with computer vision and intelligent decision engine
-**Results:** 95% faster processing, 82% cost reduction, 44% higher customer satisfaction
+**Results:** 90% faster processing, 82% cost reduction, 44% higher customer satisfaction
 
 ### About ZAFCO
 
@@ -28,7 +28,7 @@ ZAFCO required a solution that could maintain quality while dramatically increas
 DevKraft delivered an AI-powered warranty claims processing system for ZAFCO that combines computer vision (YOLOv8) with multi-modal AI analysis (OpenAI GPT-5 Vision) and an intelligent business rules engine.
 
 **Key Results:**
-- 95% reduction in processing time (48 hours → <3 minutes)
+- 90% reduction in processing time (48 hours → <5 minutes)
 - 82% reduction in processing cost per claim
 - 75% improvement in claim reassessment rate
 - 44% increase in customer satisfaction
@@ -167,7 +167,7 @@ We deployed our enterprise AI framework—a proven process for scaling AI from c
 │                                         │
 │ Custom-trained YOLOv8n model            │
 │ → Detects 52 tire defect classes across │
-│ 10 major categories with 95% accuracy,  │
+│ 10 major categories with 90% accuracy,  │
 │ processes images in 1-3 seconds vs.     │
 │ 15 minutes manual                       │
 └─────────────────────────────────────────┘
@@ -215,8 +215,8 @@ We deployed our enterprise AI framework—a proven process for scaling AI from c
 
 ### MEASURABLE OUTCOMES
 
-**95% Reduction in Processing Time**
-48 hours → <3 minutes average
+**90% Reduction in Processing Time**
+48 hours → <5 minutes average
 Claims adjudicated rapidly with complete audit trail
 
 **82% Reduction in Processing Cost**
@@ -241,10 +241,10 @@ Zero performance degradation under load
 
 | Metric | Before | After DevKraft |
 |--------|--------|----------------|
-| Avg Processing Time | 48 hours | <3 minutes |
+| Avg Processing Time | 48 hours | <5 minutes |
 | Processing Cost per Claim | Baseline | -82% |
 | Claims per Day | 50 (manual) | 5,000+ (automated) |
-| Decision Consistency | 70% | 95% |
+| Decision Accuracy | 70% | 90% |
 | Reassessment/Appeal Rate | Baseline | +75% improvement |
 | Customer Satisfaction | Baseline | +44% |
 | System Uptime | 99.0% (manual shifts) | 99.9% (automated) |
@@ -256,7 +256,7 @@ Zero performance degradation under load
 
 **82% cost reduction per claim** from automated processing and reduced manual overhead
 
-**Competitive advantage:** Industry-leading claim turnaround (<3 minutes vs. competitors' 24-48 hours)
+**Competitive advantage:** Industry-leading claim turnaround (<5 minutes vs. competitors' 24-48 hours)
 
 **Innovation velocity:** Teams freed from routine work to focus on complex cases and customer service
 
@@ -277,8 +277,8 @@ Zero performance degradation under load
 **Processing Time Trend (Phase by Phase)**
 - Week 1-3: Baseline 48 hours (discovery phase)
 - Week 4-7: 12 hours (pilot with automated intake)
-- Week 8-11: 5 minutes (UAT with full AI)
-- Week 12+: <3 minutes (production optimization)
+- Week 8-11: 8 minutes (UAT with full AI)
+- Week 12+: <5 minutes (production optimization)
 
 **Cost Reduction Achievement**
 - 82% reduction in per-claim processing cost
@@ -286,7 +286,7 @@ Zero performance degradation under load
 - Infrastructure scales efficiently with volume
 
 **Quality and Satisfaction Improvements**
-- Decision consistency: 70% → 95%
+- Decision accuracy: 70% → 90%
 - Reassessment rate improved by 75%
 - Customer satisfaction increased by 44%
 
@@ -298,7 +298,7 @@ Zero performance degradation under load
 
 **1. Hybrid AI Strategy**
 
-Combined specialized computer vision (YOLOv8 for defects) with general-purpose AI (GPT-5 for context and reasoning). This achieved 95% decision consistency vs. 70% manual baseline. Matching the right AI tool to each task was critical.
+Combined specialized computer vision (YOLOv8 for defects) with general-purpose AI (GPT-5 for context and reasoning). This achieved 90% decision accuracy vs. 70% manual baseline. Matching the right AI tool to each task was critical.
 
 **2. Confidence-Based Escalation**
 
@@ -320,7 +320,7 @@ Structured JSON logging of every decision, applied rule, and AI analysis. This w
 
 **Build confidence scoring from day 1** — Don't aim for 100% automation. Design for human oversight on edge cases from the start.
 
-**Involve domain experts early** — Claims adjusters tested the system in week 5, catching nuances that would have caused production issues.
+**Involve domain experts early** — Claims adjusters tested the system in weeks 9-10, catching nuances that would have caused production issues.
 
 **Design for integration** — RESTful API allowed ZAFCO to integrate with their existing CRM without replacing systems.
 
@@ -334,7 +334,7 @@ Structured JSON logging of every decision, applied rule, and AI analysis. This w
 ┌─────────────────────────────────────────────────┐
 │        We'll Show You How To:                   │
 │                                                 │
-│  • Reduce processing time by 95% (days → min)  │
+│  • Reduce processing time by 90% (days → min)  │
 │  • Cut processing costs by 82% per transaction │
 │  • Scale from 10 to 1000+ concurrent processes │
 │  • Improve quality metrics by 44-75%           │
@@ -380,8 +380,8 @@ Structured JSON logging of every decision, applied rule, and AI analysis. This w
 **Performance Metrics:**
 - 100+ concurrent request capacity
 - Sub-second API response times
-- <3 minute average claim processing
-- 95% decision consistency
+- <5 minute average claim processing
+- 90% decision accuracy
 - 99.9% system uptime
 
 **Security & Compliance:**
@@ -527,4 +527,4 @@ This comprehensive taxonomy enables precise defect classification for accurate w
 
 © 2025 DevKraft. All rights reserved.
 
-*This case study is based on the ZAFCO AI Warranty Claims Analysis project developed between September-October 2025.*
+*This case study represents a 12-week AI implementation project completed in 2025.*
