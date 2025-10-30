@@ -37,7 +37,7 @@
 
 **Challenge:** Manual tire warranty claim processing was slow, inconsistent, and couldn't scale to meet growing demand from retail partners.
 
-**Solution:** AI-powered automation system combining computer vision (YOLOv8), multi-modal AI analysis (OpenAI GPT-4o Vision), and intelligent business rules engine.
+**Solution:** AI-powered automation system combining computer vision (YOLOv8), multi-modal AI analysis (OpenAI GPT-5 Vision), and intelligent business rules engine.
 
 **Results:**
 • 93% reduction in processing time (2 days → 30 seconds average)
@@ -46,7 +46,7 @@
 • 100x scalability - handles 100+ concurrent claims vs. 5-10 manual
 • 400% first-year ROI with 7-week deployment timeline
 
-**Key Technology:** FastAPI, YOLOv8, OpenAI GPT-4o Vision, PostgreSQL, Redis, AWS
+**Key Technology:** FastAPI, YOLOv8, OpenAI GPT-5 Vision, PostgreSQL, Redis, AWS
 
 **Timeline:** 7 weeks from kickoff to production deployment
 
@@ -179,7 +179,7 @@ We deployed our enterprise AI framework—a proven process for scaling AI from c
 ┌─────────────────────────────────────────┐
 │ 🤖 Multi-LLM Intelligence                │
 │                                         │
-│ OpenAI GPT-4o Vision + YOLOv8           │
+│ OpenAI GPT-5 Vision + YOLOv8            │
 │ → Specialized computer vision for       │
 │ defect detection + general AI for       │
 │ contextual analysis and rule evaluation │
@@ -189,9 +189,10 @@ We deployed our enterprise AI framework—a proven process for scaling AI from c
 │ 🔍 YOLOv8 Defect Detection              │
 │                                         │
 │ Custom-trained YOLOv8n model            │
-│ → Detects 10 tire defect types with     │
-│ 95% accuracy, processes images in       │
-│ 1-3 seconds vs. 15 minutes manual       │
+│ → Detects 52 tire defect classes across │
+│ 10 major categories with 95% accuracy,  │
+│ processes images in 1-3 seconds vs.     │
+│ 15 minutes manual                       │
 └─────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────┐
@@ -226,14 +227,6 @@ We deployed our enterprise AI framework—a proven process for scaling AI from c
 - Redis caching for performance optimization
 - OpenAI integration for multimodal analysis
 - RESTful API for seamless integration with existing systems
-
----
-
-### Client Quote
-
-> "DevKraft's daily standups kept us completely aligned. We always knew exactly where we were in the 7-week plan. No surprises, no delays—just steady, measurable progress toward our goal. By week 5, we were already processing real claims in UAT."
->
-> — Sarah Chen, VP of Operations, Zaffco
 
 ---
 
@@ -317,21 +310,13 @@ Zero performance degradation under load
 
 ---
 
-### Client Quote
-
-> "The ROI was undeniable within the first month of production. But what really transformed our business was the consistency and scalability. We can now take on 5x more retail partners without hiring proportionally. That's a game-changer for our growth strategy."
->
-> — Michael Torres, CEO, Zaffco
-
----
-
 ## PAGE 6: KEY TAKEAWAYS + CALL-TO-ACTION
 
 ### Key Insights: What Enabled These Results
 
 **1️⃣ Hybrid AI Strategy**
 
-Combined specialized computer vision (YOLOv8 for defects) with general-purpose AI (GPT-4o for context and reasoning). This achieved 95% accuracy vs. 80% with vision-only approaches. Matching the right AI tool to each task was critical.
+Combined specialized computer vision (YOLOv8 for defects) with general-purpose AI (GPT-5 for context and reasoning). This achieved 95% accuracy vs. 80% with vision-only approaches. Matching the right AI tool to each task was critical.
 
 **2️⃣ Confidence-Based Escalation**
 
@@ -390,27 +375,6 @@ Structured JSON logging of every decision, applied rule, and AI analysis. This w
 
 ---
 
-### Or reach out directly:
-
-📧 enterprise-ai@devkraft.com
-📞 +1-XXX-XXX-XXXX
-📅 calendly.com/devkraft/assessment
-🌐 devkraft.com/solutions/claims-automation
-
----
-
-### Trust Signals
-
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   [AWS Logo]         [Client Logo]      [Client Logo]
-AWS Advanced-Tier    Trusted by 30+     Serving 50,000+
-    Partner          Enterprises      Claims Processed
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
----
-
 ## APPENDIX: Technical Specifications
 
 ### System Architecture
@@ -420,10 +384,10 @@ AWS Advanced-Tier    Trusted by 30+     Serving 50,000+
 - YOLOv8 Defect Detection Service - Port 8001
 - PostgreSQL Database - Persistent storage
 - Redis Cache - Performance optimization
-- OpenAI GPT-4o Vision - Multimodal AI analysis
+- OpenAI GPT-5 Vision - Multimodal AI analysis
 
 **Key Capabilities:**
-- 10-class tire defect detection (sidewall cracks, tread separation, bulges, punctures, irregular wear, cord exposure, bead damage, foreign objects, etc.)
+- 52-class tire defect detection organized into 10 major categories (bead defects, sidewall defects, shoulder defects, tread defects, liner defects, wear patterns, crack types, external damage, belt/ply separations, and structural defects)
 - Automatic information extraction from images (brand, model, serial, DOT code)
 - Video analysis for dynamic tire issues
 - Intelligent business rules engine (deterministic + AI-assisted)
@@ -456,11 +420,91 @@ AWS Advanced-Tier    Trusted by 30+     Serving 50,000+
 | **Database** | PostgreSQL | 15 | Persistent storage |
 | **ORM** | SQLAlchemy | 2.0.23 | Async database operations |
 | **Cache** | Redis | 7 | Performance optimization |
-| **AI - Vision** | OpenAI GPT-4o | Latest | Multimodal analysis |
+| **AI - Vision** | OpenAI GPT-5 | Latest | Multimodal analysis |
 | **CV Model** | YOLOv8n | Latest | Defect detection |
 | **Validation** | Pydantic | 2.5.0 | Data validation |
 | **Logging** | Structlog | 23.2.0 | Structured logging |
 | **Image Processing** | Pillow | 10.1.0 | Image quality assessment |
+
+---
+
+### Comprehensive Defect Detection Taxonomy
+
+The YOLOv8 model has been custom-trained to detect **52 distinct tire defect classes** organized into 10 major categories, providing industry-leading defect detection granularity:
+
+**1. Bead Defects (8 classes)**
+- `bead_bent` - Bent or deformed bead wire
+- `bead_burst` - Catastrophic bead failure
+- `bead_damage` - General bead area damage
+- `bead_failure` - Complete bead structural failure
+- `broken_bead` - Broken bead wire or core
+- `chafed_bead` - Bead wear from friction
+- `torque_cracks` - Stress cracks from mounting torque
+- `turn_up_separation` - Bead turn-up ply separation
+
+**2. Sidewall Defects (5 classes)**
+- `sidewall_bulge` - Sidewall bulges or deformations
+- `sidewall_cut` - Cuts or tears in sidewall
+- `sidewall_damage` - General sidewall structural damage
+- `sidewall_separation` - Sidewall ply separation
+
+**3. Shoulder Defects (6 classes)**
+- `shoulder_cracks` - Cracks in shoulder area
+- `shoulder_cut` - Cuts or tears in shoulder
+- `shoulder_scrubbing` - Abrasion wear on shoulder
+- `shoulder_separation` - Shoulder ply separation
+- `shoulder_wear` - Irregular shoulder wear patterns
+
+**4. Tread Defects (9 classes)**
+- `tread_burst` - Catastrophic tread failure
+- `tread_chunking` - Missing tread chunks
+- `tread_cut` - Cuts or tears in tread
+- `tread_deformation` - Tread shape deformation
+- `tread_irregular_wear` - Uneven tread wear
+- `tread_seperation` - Tread separation from casing
+- `diagonal_tread_wear` - Diagonal wear patterns
+- `rib_punch` - Rib area punctures
+- `rib_sinking` - Depressed rib areas
+- `rib_tearing` - Torn tread ribs
+
+**5. Liner Defects (4 classes)**
+- `liner_cut` - Cuts in inner liner
+- `liner_external_damage` - External damage to liner
+- `liner_separation` - Liner separation from casing
+- `liner_split` - Split or torn liner
+
+**6. Wear Pattern Defects (9 classes)**
+- `center_wear` - Center rib excessive wear
+- `feather_edge_wear` - Feathered edge wear patterns
+- `heel_and_toe_wear` - Heel-toe wear on tread blocks
+- `one_side_wear` - Wear on one side only
+- `scallop_wear` - Cupped or scalloped wear
+- `spot_wear` - Localized spot wear
+- `two_side_wear` - Both sides worn
+- `worn_out` - Tire at end of life
+
+**7. Crack Defects (4 classes)**
+- `groove_cracks` - Cracks in tread grooves
+- `lateral_cracks` - Lateral sidewall cracks
+- `ozone_cracks` - Environmental ozone cracking
+
+**8. External Damage (5 classes)**
+- `chemical_damage` - Chemical exposure damage
+- `external_damage` - General external damage
+- `handling_damage` - Damage from improper handling
+- `kerb_damage` - Kerb impact damage
+- `run_flat_damage` - Damage from running flat
+
+**9. Belt/Ply Separations (3 classes)**
+- `belt_edge_separation` - Belt edge separation
+- `cut_separation` - Separation initiated by cuts
+- `ply_end_separation` - Ply end separation
+
+**10. Miscellaneous Defects (2 classes)**
+- `pin_hole` - Pin holes or small punctures
+- `scaring` - Surface scarring or marking
+
+This comprehensive taxonomy enables precise defect classification for accurate warranty adjudication, going far beyond industry-standard 8-10 class systems to provide detailed, actionable insights for claims processing.
 
 ---
 
