@@ -56,18 +56,6 @@
 
 ---
 
-### Meet Zaffco
-
-**Who They Are**
-
-Zaffco is a tire warranty claims processing company founded in 2018, specializing in third-party warranty administration for tire manufacturers and retailers. With 200+ employees across North America, they process warranty claims for major tire brands and serve a network of 5,000+ retail partners. Their core service is evaluating tire defects and determining warranty coverage for manufacturers.
-
-**Scale & Context**
-
-The company processes 50,000+ warranty claims annually, with each claim involving multiple tire images, purchase documentation, and complex brand-specific warranty rules. With claims adjusters spending 60% of their time on routine claim analysis, processing bottlenecks were limiting growth. Tire manufacturers and retailers demand 24-48 hour turnaround times, but manual processing took 2-3 days per claim. Inconsistent decisions across adjusters led to disputes and appeals, costing $500K annually in rework.
-
----
-
 ## THE CHALLENGE
 
 ### Claims Trapped in Manual Processing Bottleneck
