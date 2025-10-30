@@ -6,28 +6,42 @@
 
 ## OVERVIEW
 
-### EXECUTIVE SUMMARY
+**Industry:** Tire Manufacturing & Warranty Processing
+**Challenge:** Manual claims processing taking 48+ hours with 30% inconsistency
+**Solution:** AI-powered automation with computer vision and intelligent decision engine
+**Results:** 95% faster processing, 82% cost reduction, 44% higher customer satisfaction
 
-**Industry Context:** Tire warranty claims processing traditionally requires 2-3 days of manual inspection and subjective decision-making, with 30% inconsistency rate across adjusters.
+### About ZAFCO
 
-**Client:** ZAFCO (Tire Warranty Processing)
+ZAFCO operates in the tire warranty claims processing industry, handling warranty claims for multiple tire manufacturers and retail partners. Their traditional process relied on manual inspection by trained adjusters who examined tire images, reviewed warranty documentation, and made subjective decisions on claim validity.
 
-**Challenge:** Manual tire warranty claim processing was slow, inconsistent, and couldn't scale to meet growing demand from retail partners.
+**The Business Challenge:**
+As their retail partner network expanded, ZAFCO faced a critical bottleneck. Manual processing limited throughput to 50 claims per day, with each claim taking 48 hours to adjudicate. Decision inconsistency across adjusters led to disputes and appeals, while the inability to scale without proportional staff increases threatened their growth strategy.
 
-**Solution:** AI-powered automation system combining computer vision (YOLOv8), multi-modal AI analysis (OpenAI GPT-5 Vision), and intelligent business rules engine.
+**Why They Needed AI:**
+ZAFCO required a solution that could maintain quality while dramatically increasing throughput. The system needed to detect tire defects accurately, apply complex manufacturer-specific warranty rules consistently, and provide complete audit trails for compliance—all while processing claims in minutes instead of days.
 
-**Results:**
-• 95% reduction in processing time (48 hours → <3 minutes average)
-• 82% reduction in processing cost per claim
-• 75% improvement in claim reassessment rate (reduced appeals and disputes)
-• 44% increase in customer satisfaction scores
-• 100x scalability - handles 100+ concurrent claims vs. 5-10 manual
+---
 
-**Key Technology:** FastAPI, YOLOv8, OpenAI GPT-5 Vision, PostgreSQL, Redis, AWS
+## SUMMARY
 
-**Timeline:** 12 weeks from kickoff to production deployment
+DevKraft delivered an AI-powered warranty claims processing system for ZAFCO that combines computer vision (YOLOv8) with multi-modal AI analysis (OpenAI GPT-5 Vision) and an intelligent business rules engine.
 
-**Key Innovation:** Hybrid AI approach combining specialized computer vision for defect detection with general-purpose AI for contextual rule evaluation and decision reasoning.
+**Key Results:**
+- 95% reduction in processing time (48 hours → <3 minutes)
+- 82% reduction in processing cost per claim
+- 75% improvement in claim reassessment rate
+- 44% increase in customer satisfaction
+- 100x scalability improvement
+
+**Technology Stack:**
+FastAPI microservices, YOLOv8 custom-trained model (52 defect classes), OpenAI GPT-5 Vision, PostgreSQL, Redis, AWS S3
+
+**Implementation Timeline:**
+12 weeks from discovery to production deployment
+
+**The Innovation:**
+Hybrid AI approach that uses specialized computer vision for precise defect detection combined with general-purpose AI for contextual analysis and business rule evaluation, ensuring both accuracy and consistency in decision-making.
 
 ---
 
